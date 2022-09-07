@@ -1,0 +1,33 @@
+body{
+    background-color: whitesmoke;
+}
+.deskripsi{
+    text-align: center;
+}
+h6{
+    margin-left: 25px;
+    margin-right: 25px;
+}
+.row{
+    margin: 20px;
+}
+.navbar nav{
+    margin-left: 30px;
+}
+.isi{
+    margin-top: 25px;
+}
+h3{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: blue;
+}
+.work{
+    margin: 10px;
+    text-align: right;
+}
+.card{
+    text-align: justify;
+}
+.card-title{
+    color: blue;
+}

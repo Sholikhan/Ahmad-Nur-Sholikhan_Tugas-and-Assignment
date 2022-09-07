@@ -1,0 +1,48 @@
+body{
+    background-color: whitesmoke;
+    padding: 30px;
+}
+.atas{
+    background-color: blue ;
+    margin-bottom: 50px;
+}
+.atas1{
+    position: absolute;
+    margin-left: 30px;
+}
+.atas2{
+    position: absolute;
+    left: 250px;
+    margin-left: 20px;
+}
+.atas3{
+    position: absolute;
+    left: 500px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+#kirim{
+    background-color: blue;
+    color: white;
+    border-color: blue;
+}
+#resume{
+    color: green;
+    border-color: green;
+}
+.datadiri{
+    width: 920px;
+    background-color: white;
+    margin-top: 100px;
+}
+#nama{
+    border-style: groove;
+    border-inline-start-width: 5%;
+}
+#submit{
+    border-style: groove;
+    background-color: green;
+    color: white;
+    text-align: center;
+    border-color: green;
+}
