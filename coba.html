@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+	<link rel="stylesheet" href="../Ahmad Nur Sholikhan_Hacktiv8/css/bootstrap.min.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+        <a class="navbar-brand" 
+           href="<?php echo site_url('home'); ?>">My Database
+        </a>
+        <button class="navbar-toggler" data-toggle="collapse" 
+                data-target="#collapsibleNavbar" type="button">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav mr-auto">
+                <li>
+                    <a class="nav-link" 
+                       href="<?php echo site_url('inventitemlocation'); ?>">
+                       inventitemlocation
+                    </a>
+                </li>   
+                <li>
+                    <a class="nav-link" 
+                       href="<?php echo site_url('vendtransopen'); ?>">
+                       vendtransopen
+                    </a>
+                </li>
+                <li>
+                    <a class="nav-link" 
+                       href="<?php echo site_url('ddtrackimporttable'); ?>">
+                       ddtrackimporttable
+                    </a>
+                </li>
+                <li>
+                    <a class="nav-link" 
+                       href="<?php echo site_url('dip_itemmaster'); ?>">
+                       dip_itemmaster
+                    </a>
+                </li> 
+            </ul>
+            <form class="form-inline my-2 my-lg-0" method='post' action="<?= base_url() ?>index.php/vendtransopen/index">
+                <input class="form-control mr-2" type='text' name='search' value='<?= $search ?>'>
+                <input class="btn btn-info" type='submit' name='submit' value='Submit'>
+            </form>               
+        </div> 
+</nav>
+</body>
+</html>
