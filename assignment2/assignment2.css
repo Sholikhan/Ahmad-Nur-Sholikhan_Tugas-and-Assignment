@@ -1,0 +1,30 @@
+.input{
+    margin-top: 150px;
+    padding: 20px;
+}
+.inputan{
+    width: 100%;
+    padding: 12px 20px;
+    border: 1px solid black;
+}
+.btn-success{
+    width: 100%;
+}
+.atas{
+    background-color: blue ;
+    margin-top: 50px;
+}
+.atas1{
+    position: absolute;
+    margin-left: 100px;
+}
+.atas2{
+    position: absolute;
+    left: 300px;
+    margin-left: 20px;
+    margin-top: 5px;
+}
+.atas3{
+    position: absolute;
+    left: 650px;
+}

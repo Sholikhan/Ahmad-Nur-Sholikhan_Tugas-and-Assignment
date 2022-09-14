@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>assignment2</title>
+    <script src="assignment2.js"></script>
+    <link rel="stylesheet" href="assignment2.css">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+</head>
+<body>
+    <div class="atas">
+        <span>
+            <img class="atas1" src="../gambar/sholikhan.jpg" width="150px">
+            <div class="atas2">
+                <h3 tampilkanNama() id="nama"></h3>
+                <p tampilkanRole() id="role"></p>
+                <span><input id="Edit" type="button" value="Edit"></span>
+                <span><input id="resume" type="button" value="Resume"></span>
+            </div>
+            <div class="atas3">
+                <table>
+                    <tr>
+                        <form>
+                            <td><b>Availability</b></td>
+                        </form>
+                        <td>:</td>
+                        <td tampilkanAvailability() id="availability"></td>
+                    </tr>
+                    <tr>
+                        <form>
+                            <td><b>Usia</b></td>
+                        </form>
+                        <td>:</td>
+                        <td tampilkanUsia() id="usia"></td>
+                    </tr>
+                    <tr>
+                        <form>
+                            <td><b>Lokasi</b></td>
+                        </form>
+                        <td>:</td>
+                        <td tampilkanLokasi() id="lokasi"></td>
+                    </tr>
+                    <tr>
+                        <form>
+                            <td><b>Years experience</b></td>
+                        </form>
+                        <td>:</td>
+                        <td tampilkanYears() id="years"></td>
+                    </tr>
+                    <tr>
+                        <form>
+                            <td><b>email</b></td>
+                        </form>
+                        <td>:</td>
+                        <td tampilkanEmail() id="email"></td>
+                    </tr>
+                </table>
+            </div>
+        </span>
+    </div>
+    <p></p>
+    <br>
+    <div class="input">
+        <h3 class="id">Nama</h3>
+        <input class="inputan" onchange="onChangeNama(event)" type="text" placeholder="Masukkan nama" class="inputan">
+        <h3 class="id">Role</h3>
+        <input class="inputan" onchange="onChangeRole(event)" type="text" placeholder="Masukkan Role">
+        <h3 class="id">Availability</h3>
+        <input class="inputan" onchange="onChangeAvailability(event)" type="text" placeholder="Masukkan Availability">
+        <h3 class="id">Usia</h3>
+        <input class="inputan" onchange="onChangeUsia(event)" type="text" placeholder="Masukkan Usia">
+        <h3 class="id">Lokasi</h3>
+        <input class="inputan" onchange="onChangeLokasi(event)" type="text" placeholder="Masukkan Lokasi">
+        <h3 class="id">Years Experience</h3>
+        <input class="inputan" onchange="onChangeYears(event)" type="text" placeholder="Masukkan Years Experience">
+        <h3 class="id">Email</h3>
+        <input class="inputan" onchange="onChangeEmail(event)" type="text" placeholder="Masukkan Email">
+        <p></p>
+        <br>
+        <a href="#">
+            <button type="button" class="btn btn-success" onclick="onButtonClick()" id="btnOK">
+                SUBMIT
+            </button>
+        </a>
+    </div>
+</body>
+</html>
